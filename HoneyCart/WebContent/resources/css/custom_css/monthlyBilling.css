@@ -1,0 +1,147 @@
+.docketList {
+    padding-top: 1%;
+    height: 450px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.padding-bottom-1per{
+	padding-bottom: 1%;
+}
+.padding-0per{
+	padding-left: 6px;
+    padding-right: 0%;
+}
+/* This code for togle button */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #5cb85c;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.from-tooltip:hover .from-text {
+	visibility: visible;
+}
+.from-tooltip {
+	position: relative;
+	cursor: default;
+}
+.from-text {
+	font-size: 11px;
+	visibility: hidden;
+	width: 60px;
+	background-color: #fff0b3;
+	color: black;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	margin-top: 13%;
+	font-family: monospace;
+}
+.border_rounded{
+	border: 1px solid rgba(0, 0, 0, 0.13);
+    border-radius: 0.25rem;
+}
+
+.chargeable-tooltip {
+	position: relative;
+	cursor: default;
+}
+
+.chargeable-text {
+	font-size: 11px;
+	visibility: hidden;
+	width: 60px;
+	background-color: #fff0b3;
+	color: black;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	margin-top: 14%;
+	font-family: monospace;
+	margin-left: -80%;
+	
+}
+
+.chargeable-tooltip:hover .chargeable-text {
+	visibility: visible;
+}
+
+.countData{
+	text-align: center;
+	margin-top: 3%;
+}
+.marginAuto{
+	margin: auto;
+}
+.rightBorder{
+	border-right-color: black; 
+    border-right-style: double;
+}
+.padleft15px{
+	 padding-left: 15px;
+}
+.pad15px{
+	 padding: 15px;
+}
+.totalRow{
+	background-color: #ccf7d6;
+}
+.chkBox{
+	
+}
